@@ -3,4 +3,10 @@ background-color: #1D1;
 }
 .H1__Título{
     color: #F13;
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: 5px;
 }
