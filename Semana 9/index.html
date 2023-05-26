@@ -20,6 +20,9 @@
   <main>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem dicta consequuntur laudantium illum culpa animi ipsam unde ipsum? Maiores explicabo repellendus saepe delectus pariatur atque numquam? Aperiam, laborum rerum.</p>
   </main>
+ <div>
+    <a name="" id="editar" class="btn btn-primary" href="#" role="button">Button</a>
+ </div>
   <footer>
     <!-- place footer here -->
   </footer>
@@ -37,8 +40,15 @@
         $("p").click(function (e) { 
             e.preventDefault();
             alert("Click en P");
-            $(this).hide();
+            $(this).addClass("bg-danger");
         });
+        function cambioColor(){
+            
+        }
+    });
+    $("#editar").click(function (e) { 
+        e.preventDefault();
+        alert("Click en Editar");
     });
   </script>
 </body>
